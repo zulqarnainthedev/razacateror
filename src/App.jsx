@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowDown, ArrowRight, ArrowUpRight, ChefHat, MapPin, Menu as MenuIcon, Phone, Sparkles, UtensilsCrossed, X } from 'lucide-react';
+import { ArrowDown, ArrowRight, ArrowUpRight, ChefHat, MapPin, Menu as MenuIcon, MessageCircle, Phone, Sparkles, UtensilsCrossed, X } from 'lucide-react';
 import { categories, images, menu } from './data/menuData';
 
 const copy = {
