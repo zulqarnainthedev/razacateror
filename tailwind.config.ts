@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./client/**/*.{ts,tsx}"],
+  content: ["./src/**/*.{js,jsx}", "./client/**/*.{ts,tsx}"],
   prefix: "",
   theme: {
     container: {
@@ -14,6 +14,10 @@ export default {
     },
     extend: {
       colors: {
+        burgundy: "#650E18",
+        maroon: "#35080D",
+        gold: "#D9AD52",
+        cream: "#FFF8EB",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
